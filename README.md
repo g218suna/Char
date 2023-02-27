@@ -85,7 +85,7 @@ arnAPT リポジトリをシステムのソフトウェアリポジトリリス�
 
 ~# `apt-get install yarn`
 
-### Firewallの設定
+### Firewall の設定
 
 ~# `ufw enable`
 
@@ -109,7 +109,7 @@ arnAPT リポジトリをシステムのソフトウェアリポジトリリス�
 
 ~# `ufw status`
 
-## dev-userを作成
+## dev-user を作成
 
 ~# `sudo passwd root`
 
@@ -167,19 +167,19 @@ nvm use 0.39.3 > /dev/null
 
 ~/chat-app$ `git add .`
 
-~/chat-app# `git commit -m 'first commit'`
+~/chat-app$ `git commit -m 'first commit'`
 
-~/chat-app# `git remote add origin <RemoteRipositoryURL>`
+~/chat-app$ `git remote add origin <RemoteRipositoryURL>`
 
-~/chat-app# `git push origin main`
+~/chat-app$ `git push origin main`
 
 ## TypeScript の設定
 
-~/chat-app# `yarn add -D @tsconfig/strictest`
+~/chat-app$ `yarn add -D @tsconfig/strictest`
 
 ## prettier を導入
 
-~/chat-app# `yarn add -D prettier`
+~/chat-app$ `yarn add -D prettier`
 
 ## format と lint の設定
 
