@@ -219,6 +219,6 @@ nvm use 0.39.3 > /dev/null
 
 ## サインイン機能作成
 
-~/chat-app# `mkdir -p src/pages/signin`
+~/chat-app$ `mkdir -p src/pages/signin`
 
-~/chat-app# `touch src/pages/signuin/index.tsx`
+~/chat-app$ `touch src/pages/signin/index.tsx`
