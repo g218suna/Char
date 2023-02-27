@@ -6,7 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "run-p lint:*",
+    "lint:next": "next lint . --ignore-path .prettierignore --max-warnings 0",
+    "lint:prettier": "prettier --check .",
+    "lint:typecheck": "tsc --pretty --noEmit",
+    "format": "run-s format:eslint format:prettier",
+    "format:eslint": "yarn lint:next --fix",
+    "format:prettier": "yarn lint:prettier --write"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.5.1",
@@ -18,7 +24,11 @@
     "eslint": "8.34.0",
     "eslint-config-next": "13.2.1",
     "firebase": "^9.17.1",
+<<<<<<< HEAD
     "framer-motion": "^10.0.1",
+=======
+    "framer-motion": "^10.0.0",
+>>>>>>> 9acbaa942d72d6fff24bd0febab808939532f41c
     "next": "13.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",

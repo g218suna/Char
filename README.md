@@ -85,7 +85,7 @@ arnAPT リポジトリをシステムのソフトウェアリポジトリリス�
 
 ~# `apt-get install yarn`
 
-### Firewallの設定
+### Firewall の設定
 
 ~# `ufw enable`
 
@@ -109,7 +109,7 @@ arnAPT リポジトリをシステムのソフトウェアリポジトリリス�
 
 ~# `ufw status`
 
-## dev-userを作成
+## dev-user を作成
 
 ~# `sudo passwd root`
 
@@ -167,56 +167,58 @@ nvm use 0.39.3 > /dev/null
 
 ~/chat-app$ `git add .`
 
-~/chat-app# `git commit -m 'first commit'`
+~/chat-app$ `git commit -m 'first commit'`
 
-~/chat-app# `git remote add origin <RemoteRipositoryURL>`
+~/chat-app$ `git remote add origin <RemoteRipositoryURL>`
 
-~/chat-app# `git push origin main`
+~/chat-app$ `git push origin main`
+
+---
 
 ## TypeScript の設定
 
-~/chat-app# `yarn add -D @tsconfig/strictest`
+~/chat-app$ `yarn add -D @tsconfig/strictest`
 
 ## prettier を導入
 
-~/chat-app# `yarn add -D prettier`
+~/chat-app$ `yarn add -D prettier`
 
 ## format と lint の設定
 
-~/chat-app# `yarn add -D npm-run-all`
+~/chat-app$ `yarn add -D npm-run-all`
 
 ## Chakra UI のセットアップ
 
-~/chat-app# `yarn add @chakra-ui/react @emotion/react @emotion/styled framer-motion`
+~/chat-app$ `yarn add @chakra-ui/react @emotion/react @emotion/styled framer-motion`
 
 ## Next.js に Firebase をセットアップ
 
-~/chat-app# `yarn add firebase`
+~/chat-app$ `yarn add firebase`
 
-~/chat-app# `mkdir -p src/lib/firebase`
+~/chat-app$ `mkdir -p src/lib/firebase`
 
-~/chat-app# `touch src/lib/firebase/firebase.ts`
+~/chat-app$ `touch src/lib/firebase/firebase.ts`
 
-~/chat-app# `touch .env.local`
+~/chat-app$ `touch .env.local`
 
-~/chat-app# `mkdir -p src/constant`
+~/chat-app$ `mkdir -p src/constant`
 
-~/chat-app# `touch src/constant/env.ts`
+~/chat-app$ `touch src/constant/env.ts`
 
 ## Ubuntu 監視ファイル上限増加
 
-~/chat-app# `echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf`
+~/chat-app$ `echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf`
 
-~/chat-app# `sudo sysctl -p`
+~/chat-app$ `sudo sysctl -p`
 
 ## サインアップ機能作成
 
-~/chat-app# `mkdir -p src/pages/signup`
+~/chat-app$ `mkdir -p src/pages/signup`
 
-~/chat-app# `touch src/pages/signup/index.tsx`
+~/chat-app$ `touch src/pages/signup/index.tsx`
 
 ## サインイン機能作成
 
-~/chat-app# `mkdir -p src/pages/signin`
+~/chat-app$ `mkdir -p src/pages/signin`
 
-~/chat-app# `touch src/pages/signuin/index.tsx`
+~/chat-app$ `touch src/pages/signin/index.tsx`
