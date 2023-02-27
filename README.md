@@ -222,3 +222,15 @@ nvm use 0.39.3 > /dev/null
 ~/chat-app$ `mkdir -p src/pages/signin`
 
 ~/chat-app$ `touch src/pages/signin/index.tsx`
+
+## 認証状態の監視
+
+~/chat-app$ `mkdir -p src/feature/auth/provider`
+
+~/chat-app$ `touch src/feature/auth/provider/AuthProvider.tsx`
+
+~/chat-app$ `mkdir -p src/component/Header`
+
+~/chat-app$ `touch src/component/Header/Header.tsx`
+
+~/chat-app$ 

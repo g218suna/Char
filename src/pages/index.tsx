@@ -5,7 +5,7 @@ const Page: NextPage = () => {
   return (
     <Box>
       <Heading>Chakra UI</Heading>
-   </Box>
+    </Box>
   )
 }
 

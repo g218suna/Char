@@ -24,11 +24,7 @@
     "eslint": "8.34.0",
     "eslint-config-next": "13.2.1",
     "firebase": "^9.17.1",
-<<<<<<< HEAD
-    "framer-motion": "^10.0.1",
-=======
     "framer-motion": "^10.0.0",
->>>>>>> 9acbaa942d72d6fff24bd0febab808939532f41c
     "next": "13.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
