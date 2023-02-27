@@ -183,7 +183,7 @@ nvm use 0.39.3 > /dev/null
 
 ## format と lint の設定
 
-~/chat-app# `yarn add -D npm-run-all`
+~/chat-app$ `yarn add -D npm-run-all`
 
 ## Chakra UI のセットアップ
 
