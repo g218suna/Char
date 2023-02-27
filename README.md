@@ -199,21 +199,21 @@ nvm use 0.39.3 > /dev/null
 
 ~/chat-app$ `touch .env.local`
 
-~/chat-app# `mkdir -p src/constant`
+~/chat-app$ `mkdir -p src/constant`
 
-~/chat-app# `touch src/constant/env.ts`
+~/chat-app$ `touch src/constant/env.ts`
 
 ## Ubuntu 監視ファイル上限増加
 
-~/chat-app# `echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf`
+~/chat-app$ `echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf`
 
-~/chat-app# `sudo sysctl -p`
+~/chat-app$ `sudo sysctl -p`
 
 ## サインアップ機能作成
 
-~/chat-app# `mkdir -p src/pages/signup`
+~/chat-app$ `mkdir -p src/pages/signup`
 
-~/chat-app# `touch src/pages/signup/index.tsx`
+~/chat-app$ `touch src/pages/signup/index.tsx`
 
 ## サインイン機能作成
 
