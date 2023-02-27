@@ -187,17 +187,17 @@ nvm use 0.39.3 > /dev/null
 
 ## Chakra UI のセットアップ
 
-~/chat-app# `yarn add @chakra-ui/react @emotion/react @emotion/styled framer-motion`
+~/chat-app$ `yarn add @chakra-ui/react @emotion/react @emotion/styled framer-motion`
 
 ## Next.js に Firebase をセットアップ
 
-~/chat-app# `yarn add firebase`
+~/chat-app$ `yarn add firebase`
 
-~/chat-app# `mkdir -p src/lib/firebase`
+~/chat-app$ `mkdir -p src/lib/firebase`
 
-~/chat-app# `touch src/lib/firebase/firebase.ts`
+~/chat-app$ `touch src/lib/firebase/firebase.ts`
 
-~/chat-app# `touch .env.local`
+~/chat-app$ `touch .env.local`
 
 ~/chat-app# `mkdir -p src/constant`
 
