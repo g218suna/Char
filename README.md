@@ -173,6 +173,8 @@ nvm use 0.39.3 > /dev/null
 
 ~/chat-app$ `git push origin main`
 
+---
+
 ## TypeScript の設定
 
 ~/chat-app$ `yarn add -D @tsconfig/strictest`
