@@ -46,6 +46,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Node.js v16.19.1
 - Node Package Manager (npm) v8.19.3
 - yarn v1.22.19
+- React v
+- Next.js
 
 ## Docker
 

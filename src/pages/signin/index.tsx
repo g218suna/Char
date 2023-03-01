@@ -41,11 +41,11 @@ export const Page = () => {
                 title: 'エラーが発生しました。',
                 status: 'error',
                 position: 'top',
-              })
+            })
             if (e instanceof FirebaseError) {
                 console.log(e)
             }
-        }finally{
+        } finally {
             setIsLoading(false)
         }
     }
