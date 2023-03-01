@@ -239,9 +239,11 @@ nvm use 0.39.3 > /dev/null
 
 ~/chat-app$ `touch src/feature/auth/component/AuthGuard/AuthGuard.tsx`
 
-~/chat-app$ 
+## チャット送信機能の実装
 
-~/chat-app$ 
+~/chat-app$ `mkdir -p src/pages/chat`
+
+~/chat-app$ `touch src/pages/chat/index.tsx`
 
 ~/chat-app$ 
 
