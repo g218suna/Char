@@ -231,6 +231,8 @@ nvm use 0.39.3 > /dev/null
 
 ~/chat-app$ `touch src/feature/auth/provider/AuthProvider.tsx`
 
+## Headerの作成
+
 ~/chat-app$ `mkdir -p src/component/Header`
 
 ~/chat-app$ `touch src/component/Header/Header.tsx`
@@ -259,6 +261,18 @@ nvm use 0.39.3 > /dev/null
 
 ~/chat-app$ `touch src/component/Navigate/Navigate.tsx`
 
-~/chat-app$ 
+## Footerの作成
 
-~/chat-app$ 
+~/chat-app$ `mkdir -p src/component/Footer`
+
+~/chat-app$ `touch src/component/Footer/Footer.tsx`
+
+~/chat-app$
+
+~/chat-app$
+
+~/chat-app$
+
+~/chat-app$
+
+~/chat-app$
