@@ -267,9 +267,11 @@ nvm use 0.39.3 > /dev/null
 
 ~/chat-app$ `touch src/component/Footer/Footer.tsx`
 
-~/chat-app$
+## Chakra UI の Theme をカスタマイズ
 
-~/chat-app$
+~/chat-app$ `mkdir -p src/lib/chakra`
+
+~/chat-app$ `touch src/lib/chakra/theme.ts`
 
 ~/chat-app$
 
