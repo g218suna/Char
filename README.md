@@ -247,7 +247,17 @@ nvm use 0.39.3 > /dev/null
 
 ~/chat-app$ `touch src/pages/chat/index.tsx`
 
-~/chat-app$ 
+## pathの型安全を実装
+
+~/chat-app$ `yarn add pathpida` 
+
+~/chat-app$ `mkdir -p src/hooks/useRouter`
+
+~/chat-app$ `touch src/hooks/useRouter/useRouter.ts`
+
+~/chat-app$ `mkdir -p src/component/Navigate`
+
+~/chat-app$ `touch src/component/Navigate/Navigate.tsx`
 
 ~/chat-app$ 
 
