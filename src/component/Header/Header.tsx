@@ -41,6 +41,10 @@ export const Header = () => {
         }
     }
 
+    const moveMypage = () => {
+        push((path) => path.mypage.$url())
+    }
+
     return (
         <chakra.header py={4} bgColor={'blue.600'}>
             <Container maxW={'container.lg'}>
@@ -61,6 +65,7 @@ export const Header = () => {
                                 <Avatar flexShrink={0} width={10} height={10} />
                             </MenuButton>
                             <MenuList py={0}>
+                                <MenuItem onClick={moveMypage}>マイページ</MenuItem>
                                 <MenuItem onClick={handleSignOut}>サインアウト</MenuItem>
                             </MenuList>
                         </Menu>

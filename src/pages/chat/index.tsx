@@ -88,7 +88,7 @@ export const Page = () => {
                 minHeight={0}
             >
                 <Heading>チャット</Heading>
-                <Spacer flex={'none'} height={4} aria-hidden />
+                <Spacer flex={'none'} height={8} aria-hidden />
                 <Flex
                     flexDirection={'column'}
                     overflowY={'auto'}
