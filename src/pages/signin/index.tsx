@@ -29,11 +29,11 @@ export const Page = () => {
         e.preventDefault()
         try {
             const auth = getAuth()
-            await signInWithEmailAndPassword(auth, email, password)
+            const userProfile =  await signInWithEmailAndPassword(auth, email, password)
             setEmail('')
             setPassword('')
             toast({
-                title: 'ログインしました。',
+                title: `Signed in ${userProfile.user.email}`,
                 status: 'success',
                 position: 'top',
             })
@@ -41,7 +41,7 @@ export const Page = () => {
             push((path) => path.chat.$url())
         } catch (e) {
             toast({
-                title: 'エラーが発生しました。',
+                title: 'An error has occurred.',
                 status: 'error',
                 position: 'top',
             })
@@ -55,13 +55,13 @@ export const Page = () => {
 
     return (
         <Container py={14}>
-            <Heading>サインイン</Heading>
+            <Heading>Sign In</Heading>
             <chakra.form onSubmit={handleSubmit}>
                 <Spacer height={8} aria-hidden />
                 <Grid gap={4}>
                     <Box display={'contents'}>
                         <FormControl>
-                            <FormLabel>メールアドレス</FormLabel>
+                            <FormLabel>Mail Address</FormLabel>
                             <Input
                                 type={'email'}
                                 name={'email'}
@@ -72,7 +72,7 @@ export const Page = () => {
                             />
                         </FormControl>
                         <FormControl>
-                            <FormLabel>パスワード</FormLabel>
+                            <FormLabel>Password</FormLabel>
                             <Input
                                 type={'password'}
                                 name={'password'}
@@ -86,7 +86,7 @@ export const Page = () => {
                 </Grid>
                 <Spacer height={4} aria-hidden />
                 <Center>
-                    <Button type={'submit'} isLoading={isLoading}>ログイン</Button>
+                    <Button type={'submit'} isLoading={isLoading}>Sign In</Button>
                 </Center>
             </chakra.form>
         </Container>

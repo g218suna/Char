@@ -29,7 +29,7 @@ export const Header = () => {
             await signOut(auth)
 
             toast({
-                title: 'ログアウトしました．',
+                title: 'Signed out.',
                 status: 'success',
                 position: 'top',
             })
@@ -65,14 +65,14 @@ export const Header = () => {
                                 <Avatar flexShrink={0} width={10} height={10} />
                             </MenuButton>
                             <MenuList py={0}>
-                                <MenuItem onClick={moveMypage}>マイページ</MenuItem>
-                                <MenuItem onClick={handleSignOut}>サインアウト</MenuItem>
+                                <MenuItem onClick={moveMypage}>My Page</MenuItem>
+                                <MenuItem onClick={handleSignOut}>Sign Out</MenuItem>
                             </MenuList>
                         </Menu>
                     ) : (
                         <Navigate href={(path) => path.signin.$url()}>
                             <Button as={'a'} colorScheme={'teal'}>
-                                サインイン
+                                Sign In
                             </Button>
                         </Navigate>
                     )}

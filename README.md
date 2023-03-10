@@ -281,4 +281,24 @@ nvm use 0.39.3 > /dev/null
 
 ~/chat-app$ `yarn add @chakra-ui/icons`
 
-~/chat-app$
+## Font Awesome を追加
+
+~/chat-app$ `yarn add @fortawesome/fontawesome-svg-core`
+
+~/chat-app$ `yarn add @fortawesome/free-solid-svg-icons`
+
+~/chat-app$ `yarn add @fortawesome/free-regular-svg-icons`
+
+~/chat-app$ `yarn add @fortawesome/react-fontawesome@latest`
+
+~/chat-app$ ``
+
+~/chat-app$ ``
+
+~/chat-app$ ``
+
+~/chat-app$ ``
+
+~/chat-app$ ``
+
+~/chat-app$ ``

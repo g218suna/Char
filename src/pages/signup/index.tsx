@@ -43,14 +43,14 @@ export const Page = () => {
             setEmail('')
             setPassword('')
             toast({
-                title: '確認メールを送信しました。',
+                title: 'Confirmation email sent.',
                 status: 'success',
                 position: 'top',
             })
             push((path) => path.chat.$url())
         } catch (e) {
             toast({
-                title: 'エラーが発生しました。',
+                title: 'An error has occurred.',
                 status: 'error',
                 position: 'top',
             })
@@ -64,13 +64,13 @@ export const Page = () => {
 
     return (
         <Container py={14}>
-            <Heading>サインアップ</Heading>
+            <Heading>Sign Up</Heading>
             <chakra.form onSubmit={handleSubmit}>
                 <Spacer height={8} aria-hidden />
                 <Grid gap={4}>
                     <Box display={'contents'}>
                         <FormControl>
-                            <FormLabel>メールアドレス</FormLabel>
+                            <FormLabel>Mail Address</FormLabel>
                             <Input
                                 type={'email'}
                                 name={'email'}
@@ -81,7 +81,7 @@ export const Page = () => {
                             />
                         </FormControl>
                         <FormControl>
-                            <FormLabel>パスワード</FormLabel>
+                            <FormLabel>Password</FormLabel>
                             <Input
                                 type={'password'}
                                 name={'password'}
@@ -95,7 +95,7 @@ export const Page = () => {
                 </Grid>
                 <Spacer height={4} aria-hidden />
                 <Center>
-                    <Button type={'submit'} isLoading={isLoading}>アカウントを作成</Button>
+                    <Button type={'submit'} isLoading={isLoading}>Create Account</Button>
                 </Center>
             </chakra.form>
         </Container>
